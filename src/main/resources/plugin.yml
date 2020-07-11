@@ -1,0 +1,10 @@
+name: HuntHunt
+prefix: HuntHunt
+main: mpcsh.hunthunt.HuntHunt
+version: 0.1.0
+api-version: "1.15"
+
+commands:
+  team:
+    description: Manage teams
+    usage: /team [player] [red | blue | none]
