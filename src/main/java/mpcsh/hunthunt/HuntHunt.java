@@ -44,7 +44,7 @@ public class HuntHunt extends JavaPlugin implements Listener, CommandExecutor {
 		this.pointing = new HashMap<>();
 
 		UpdateCompassTask task = new UpdateCompassTask(this);
-		task.runTaskTimer(this, 0, 5);
+		task.runTaskTimer(this, 0, 10);
 	}
 
 
