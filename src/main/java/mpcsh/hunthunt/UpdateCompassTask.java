@@ -21,7 +21,9 @@ public class UpdateCompassTask extends BukkitRunnable {
 			Player player = Bukkit.getPlayer(entry.getKey());
 			Player enemy = Bukkit.getPlayer(entry.getValue());
 
-			player.setCompassTarget(enemy.getLocation());
+			if (enemy != null) {
+				player.setCompassTarget(enemy.getLocation());
+			}
 		}
 	}
 }
